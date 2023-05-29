@@ -23,7 +23,6 @@
     }
 
     .bar {
-        background: red;
         padding: 1rem;
         color: var(--PLAIN-WHITE);
         height: 2rem;
@@ -32,10 +31,6 @@
         padding: 5px;
         position: relative;
         transform: rotate(90deg);
-    }
-
-    .bar:hover {
-        color: red;
     }
 
     .bar::after {
