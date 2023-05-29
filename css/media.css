@@ -1,11 +1,5 @@
 /* SMALLER DEVICE */
 @media only screen and (max-width: 768px) { 
-
-    body { 
-        background-color: royalblue;
-    }
-
-
     .menu ul {
         flex-flow: column;
     }
@@ -294,9 +288,7 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width : 1279px){
-    body { 
-        background-color: rgb(235, 19, 19);
-    }
+
     .hero,
     .text-detail {
         padding: 3rem 0;
@@ -337,9 +329,7 @@
 
 
 @media only screen and (min-width: 1280px) and (max-width : 1536px) { 
-    body { 
-        background-color: bisque;
-    }
+
     .hero,
     .all-details,
     .on-image-detail,
