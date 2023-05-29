@@ -1,0 +1,379 @@
+/* SMALLER DEVICE */
+@media only screen and (max-width: 768px) { 
+
+    body { 
+        background-color: royalblue;
+    }
+
+
+    .menu ul {
+        flex-flow: column;
+    }
+
+    .menu {
+        position: absolute;
+        width: 60%;
+        padding: 1rem 0;
+        right: 0;
+        border-radius: 5px;
+        top: 3.5rem;
+        background: var(--UI-PRIMARY);
+    }
+
+
+    nav {
+        padding: 1rem 1.5rem;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .bar {
+        background: red;
+        padding: 1rem;
+        color: var(--PLAIN-WHITE);
+        height: 2rem;
+        border-left: 5px solid var(--PLAIN-WHITE);
+        display: inline-block;
+        padding: 5px;
+        position: relative;
+        transform: rotate(90deg);
+    }
+
+    .bar:hover {
+        color: red;
+    }
+
+    .bar::after {
+        height: 1.7rem;
+        top: 0;
+        position: absolute;
+        border: 3px solid var(--PLAIN-WHITE);
+        color: var(--PLAIN-WHITE);
+        content: '';
+    }
+
+
+    .logout {
+        display: none;
+    }
+
+
+    .hero {
+        flex-flow: column-reverse;
+        width: 90%;
+        min-height: 90vh;
+        padding: 3rem 0;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .text-detail p:nth-child(3) {
+        padding-bottom: 2rem;
+    }
+
+    .remote-image {
+        width: 119px;
+        bottom: -8px;
+        right: -14px;
+    }
+
+    .text-detail {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .text-detail h1 {
+        font-size: 2.2rem;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btns button {
+        font-size: 0.85rem;
+        padding: 1rem;
+        width: 47%;
+    }
+
+    /* Second section  */
+
+    .all-details h2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .all-details h1 {
+        font-size: 1.2rem;
+        border-bottom: 2.5px solid var(--UI-PRIMARY);
+    }
+
+    .cards {
+        flex-flow: column;
+        width: 100%;
+        gap: 2.5rem;
+    }
+
+    .all-details {
+        width: 90%;
+        padding: 3.5rem 0;
+    }
+
+    .raw-cards {
+        width: 100%;
+        flex-flow: column;
+    }
+
+    .info {
+        padding: 1rem 0;
+        position: relative;
+        right: 0;
+        text-align: center;
+    }
+
+    .raw-cards {
+        padding: 3.5rem 1rem 2rem;
+    }
+
+    /* on-hime */
+    .on-hime-details {
+        width: 90%;
+    }
+
+    .on-hime {
+        padding: 4rem 0 5rem;
+    }
+
+    .on-hime-details h2 {
+        font-size: 2rem;
+        padding-top: 0.5rem;
+    }
+
+    .on-hime-details p:nth-child(3) {
+        width: 100%;
+        line-height: 30px;
+        padding: 2rem 0;
+    }
+
+    .on-image-detail {
+        width: 100%;
+        flex-flow: column;
+        padding: 2.5rem 0 0 0;
+    }
+
+    .on-image-detail:nth-child(2) {
+        flex-flow: column-reverse;
+    }
+
+
+    .detail-text {
+        width: 100%;
+    }
+
+    .details-image img {
+        width: 100%;
+    }
+
+    .details-image {
+        width: 90%;
+    }
+
+    .laptop img {
+        width: 22%;
+        position: absolute;
+        right: 2%;
+        bottom: -16px;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+    }
+
+    /* FAQ SECTION */
+    .wrap-faq {
+        width: 90%;
+    }
+
+    .diff p {
+        width: 50%;
+        font-size: 1.1rem;
+        border-bottom: 2px solid var(--UI-PRIMARY);
+    }
+
+    .faq-part {
+        padding: 4.5rem 0 7rem 0;
+    }
+
+    .all-faq {
+        padding: 0.5rem 2rem;
+    }
+
+    .showDetails {
+        width: 100%;
+    }
+
+    .text-toggle {
+        font-size: 1.2rem;
+    }
+
+    .faqs-list {
+        padding-bottom: 2rem;
+    }
+
+    /* CONTACT */
+    .main-contact {
+        padding: 3rem 0 5rem 0;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .contact-left {
+        width: 100%;
+        padding: 0 5%;
+        flex-flow: row;
+    }
+
+    .top-texing {
+        padding-top: 2rem;
+    }
+
+    .top-flexing {
+        width: 100%;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .images-site img {
+        width: 100%;
+    }
+
+    .images-site {
+        padding: 1rem 0;
+    }
+
+    .text-part:nth-child(3) p {
+        font-size: 1.1rem;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-right form {
+        padding: 1.5rem;
+    }
+
+    .form-btn {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .footer-element {
+        width: 90%;
+        padding: 2rem 0;
+    }
+
+    .logo-image {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .down-part {
+        flex-flow: column;
+        gap: 3rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width : 1279px){
+    body { 
+        background-color: rgb(235, 19, 19);
+    }
+    .hero,
+    .text-detail {
+        padding: 3rem 0;
+    }
+    /* COLUMN_REVERSE */
+    .hero,
+    .on-image-detail {
+        flex-flow: column-reverse;
+    }
+    /* COLUMN */
+    .cards,
+    .on-image-detail:nth-child(3),
+    .main-contact {
+        flex-flow: column;
+    }
+    /* WIDTH */
+    .text-detail,
+    .raw-cards,
+    .detail-text,
+    .contact-left,
+    .contact-right,
+    .main-image {
+        width: 100%;
+    }
+    .images-site {
+        justify-content: center;
+    }
+    .menu ul li {
+        padding: 7px
+    }
+    nav {
+        padding: 1.2rem 0;
+    }
+    .logout {
+        padding: 0.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width : 1536px) { 
+    body { 
+        background-color: bisque;
+    }
+    .hero,
+    .all-details,
+    .on-image-detail,
+    .main-contact {
+        width: 90%;
+    }
+    .form-btn {
+        width: 56%;
+    }
+    .contact-right form {
+        padding: 3.5rem;
+    }
+
+    .detail-text {
+        width: 65%;
+    }
+    .on-hime {
+        padding: 6rem 0 8.5rem;
+    }
+    .raw-cards {
+        padding: 2.5rem;
+    }
+    .main-image,
+    .all-details {
+        width: 100%;
+    }
+    .text-detail {
+        width: 71%;
+    }
+    .text-detail h1 {
+        font-size: 2.5rem
+    }
+    .text-detail p:nth-child(3)  {
+        font-size: 1.1rem;
+    }
+
+}
